@@ -1,7 +1,7 @@
 # Leetcode 953 - [验证外星语词典](https://leetcode.cn/problems/verifying-an-alien-dictionary/)
 
 ## 解法: 枚举
-直接对字符串数组进行遍历，然后对与当前元素与前一个元素进行比对。
+直接对字符串数组进行遍历，然后对与当前元素与前一个元素进行比对，注意两者相等的时候，valid 此时还是 false，因此还要对其进行判断长短才行。
 
 ## cpp 代码
 ```cpp
